@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Portfolio</title>
+
+  
+  <link href="bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet"  href="c.css" >
+<body>
+  <div class="navbar-div sticky-top">
+    <div class="container d-flex justify-content-between align-items-center py-3">
+      <div><a class="text-decoration-none fs-4 fw-bold" href="#">MyPortfolio</a></div>
+      <div class="d-flex gap-4">
+        <a href="#home" class="text-decoration-none">Home</a>
+        <a href="#about" class="text-decoration-none">About</a>
+        <a href="#projects" class="text-decoration-none">Projects</a>
+        <a href="#skills" class="text-decoration-none">Skills</a>
+        <a href="#contact" class="text-decoration-none">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div id="home" class="hero-div">
+    <img src="moazam.jpg" alt="Profile" class="hero-img">
+    <div class="hero-title mt-3">Hi, I'm <span class="fw-bold">Your Name</span></div>
+    <div class="hero-subtitle">Front-End Developer | UI Designer | Coder</div>
+    <div class="mt-4">
+      <button class="btn btn-light px-4 py-2 fw-semibold">Explore My Work</button>
+    </div>
+  </div>
+
+  
+  <div id="about" class="about-div container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">About Me</h2>
+      <p class="text-muted">A little bit about who I am and what I do.</p>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p>
+          I'm a passionate front-end developer focused on building elegant,
+          responsive, and high-performing websites using HTML, CSS, JavaScript,
+          and Bootstrap. I love solving design challenges and turning ideas
+          into visually appealing digital experiences.
+        </p>
+        <p>
+          I'm also dedicated to learning modern frameworks and improving user
+          experience through creativity and functionality.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="about.png" alt="About" class="about-img img-fluid shadow">
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects -->
+  <div id="projects" class="container my-5">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">My Projects</h2>
+      <p class="text-muted">Some of my featured works using HTML, CSS, JS, and Bootstrap.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card card-div">
+          <img src="portfolio.png" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Portfolio Website</h5>
+            <p class="card-text">A fully responsive personal portfolio built with Bootstrap 5.</p>
+            <button class="btn btn-light btn-sm">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card card-div">
+          <img src="landingpage.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Landing Page</h5>
+            <p class="card-text">A sleek e-commerce landing page with modern UI/UX principles.</p>
+            <button class="btn btn-light btn-sm">View Details</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card card-div">
+          <img src="blog.png" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Blog Template</h5>
+            <p class="card-text">A minimal and responsive blog layout made using Bootstrap.</p>
+            <button class="btn btn-light btn-sm">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  
+  <div id="skills" class="container my-5">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">My Skills</h2>
+      <p class="text-muted">A snapshot of my technical expertise.</p>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table table-bordered text-center skills-table">
+        <thead>
+          <tr>
+            <th>Technology</th>
+            <th>Proficiency</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>HTML</td><td>Expert</td><td>3+ Years</td></tr>
+          <tr><td>CSS</td><td>Advanced</td><td>3 Years</td></tr>
+          <tr><td>Bootstrap</td><td>Advanced</td><td>2 Years</td></tr>
+          <tr><td>JavaScript</td><td>Intermediate</td><td>2 Years</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  
+  <div id="contact" class="container my-5">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Contact Me</h2>
+      <p class="text-muted">Feel free to get in touch for collaborations or queries.</p>
+    </div>
+    <div class="contact-form-div w-75 mx-auto">
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Your Name</label>
+          <input type="text" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Message</label>
+          <textarea class="form-control" rows="4" placeholder="Write your message..." required></textarea>
+        </div>
+        <div>
+          <button type="submit" class="btn btn-custom w-100">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  
+  <div class="footer-div">
+    <p>© 2025 Moazam | Designed with ❤️ </p>
+  </div>
+
+</body>
+</html>
